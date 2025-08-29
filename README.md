@@ -2,6 +2,12 @@
 
 > **Abstract:** Peer review is central to academic publishing, but the growing volume of submissions is straining the process. This motivates the development of computational approaches to support peer review. While each review is tailored to a specific paper, reviewers often make assessments according to certain *aspects* such as Novelty, which reflect the values of the research community. This alignment creates opportunities for standardizing the reviewing process, improving quality control, and enabling computational support. While prior work has demonstrated the potential of aspect analysis for peer review assistance, the notion of aspect remains poorly formalized. Existing approaches often derive aspects from review forms and guidelines, yet data-driven methods for aspect identification are underexplored. To address this gap, our work takes a bottom-up approach: we propose an operational definition of aspect and develop a data-driven schema for deriving aspects from a corpus of peer reviews. We introduce a dataset of peer reviews augmented with aspects and show how it can be used for community-level review analysis. We further show how the choice of aspects can impact downstream applications, such as LLM-generated review detection. Our results lay a foundation for a principled and data-driven investigation of review aspects, and pave the path for new applications of NLP to support peer review.
 
+Contact person: LU Sheng
+
+https://www.ukp.tu-darmstadt.de/
+
+https://www.tu-darmstadt.de/
+
 ## Aspect set construction
 
 ### Aspect identification
@@ -47,6 +53,21 @@
 
 ### Review comparison and LLM-generated review detection
 * Implementation: [notebook-review_comparison_&_detection.ipynb](notebook-review_comparison_&_detection.ipynb)
+
+## Citation
+Please use the following citation:
+
+```
+@misc{lu2025identifyingaspectspeerreviews,
+      title={Identifying Aspects in Peer Reviews}, 
+      author={Sheng Lu and Ilia Kuznetsov and Iryna Gurevych},
+      year={2025},
+      eprint={2504.06910},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2504.06910}, 
+}
+```
 
 ## Disclaimer
 This repository contains experimental software and is published for the sole purpose of giving additional background details on the respective publication.
