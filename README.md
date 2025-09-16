@@ -29,7 +29,7 @@ https://www.tu-darmstadt.de/
 * Human annotations: [human_annotations/](human_annotations)
 
 ### Data sources
-* Raw review data from Openreview: [data/](./data)
+* Raw review data from Openreview (obtained via their API): [data/](./data)
 * Selected papers: [selected_papers/](./selected_papers)
 * Preprocessed data (segmented into sentences): [preprocessed/](preprocessed)
 
