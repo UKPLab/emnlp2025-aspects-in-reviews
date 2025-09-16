@@ -10,7 +10,7 @@ https://www.tu-darmstadt.de/
 
 ##
 
-**Note:** The files in this repository are largely aligned with the sections of the paper, so you can simply locate the corresponding file based on the section of interest. The `ipynb` notebook files additionally contain detailed explanations of the code for easier reproduction and understanding.
+This repository contains the code for reproducing the aspect set construction and aspect prediction experiments, along with the aspect taxonomy file and all evaluation scores. The files in this repository are largely aligned with the sections of the paper, so you can simply locate the corresponding file based on the section of interest. The `ipynb` notebook files additionally contain detailed explanations of the code for easier reproduction and understanding.
 
 ## Aspect set construction
 
