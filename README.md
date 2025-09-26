@@ -31,7 +31,7 @@ The files in this repository are largely aligned with the sections of the paper,
 * Human annotations: [human_annotations/](human_annotations)
 
 ### Data sources
-* Raw review data from Openreview (obtained via their API): [data/](./data)
+* Raw review data from [Openreview](https://docs.openreview.net/reference/api-v2) (obtained via their API): [data/](./data)
 * Selected papers: [selected_papers/](./selected_papers)
 * Preprocessed data (segmented into sentences): [preprocessed/](preprocessed)
 
