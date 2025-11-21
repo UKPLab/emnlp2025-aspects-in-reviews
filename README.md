@@ -64,14 +64,25 @@ The files in this repository are largely aligned with the sections of the paper,
 Please use the following citation:
 
 ```
-@misc{lu2025identifyingaspectspeerreviews,
-      title={Identifying Aspects in Peer Reviews}, 
-      author={Sheng Lu and Ilia Kuznetsov and Iryna Gurevych},
-      year={2025},
-      eprint={2504.06910},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2504.06910}, 
+@inproceedings{lu-etal-2025-identifying,
+    title = "Identifying Aspects in Peer Reviews",
+    author = "Lu, Sheng  and
+      Kuznetsov, Ilia  and
+      Gurevych, Iryna",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-emnlp.326/",
+    doi = "10.18653/v1/2025.findings-emnlp.326",
+    pages = "6145--6167",
+    ISBN = "979-8-89176-335-7",
+    abstract = "Peer review is central to academic publishing, but the growing volume of submissions is straining the process. This motivates the development of computational approaches to support peer review. While each review is tailored to a specific paper, reviewers often make assessments according to certain *aspects* such as Novelty, which reflect the values of the research community. This alignment creates opportunities for standardizing the reviewing process, improving quality control, and enabling computational support. While prior work has demonstrated the potential of aspect analysis for peer review assistance, the notion of aspect remains poorly formalized. Existing approaches often derive aspects from review forms and guidelines, yet data-driven methods for aspect identification are underexplored. To address this gap, our work takes a bottom-up approach: we propose an operational definition of aspect and develop a data-driven schema for deriving aspects from a corpus of peer reviews. We introduce a dataset of peer reviews augmented with aspects and show how it can be used for community-level review analysis. We further show how the choice of aspects can impact downstream applications, such as LLM-generated review detection. Our results lay a foundation for a principled and data-driven investigation of review aspects, and pave the path for new applications of NLP to support peer review."
 }
 ```
 
